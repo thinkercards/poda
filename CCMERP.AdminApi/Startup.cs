@@ -27,6 +27,11 @@ namespace CCMERP.AdminApi
 
         public Startup(IConfiguration configuration)
         {
+
+
+
+
+            //var
             Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(configuration).CreateLogger();
             Configuration = configuration;
 
