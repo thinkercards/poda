@@ -13,6 +13,10 @@ namespace CCMERP.AdminApi
     {
         public static void Main(string[] args)
         {
+            //for testing
+            var a=10;
+            // testing
+            
 
             
             CreateHostBuilder(args).Build().Run();
