@@ -20,9 +20,16 @@ namespace CCMERP.AdminApi
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+
+
+            //var
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+
+
                     webBuilder.UseStartup<Startup>();
+
+
                 });
     }
 }
